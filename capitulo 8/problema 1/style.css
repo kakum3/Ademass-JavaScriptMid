@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(202, 198, 198);
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+justify-content: center;
+text-align: center;
+
+background: gray;
+flex-direction: column;
+padding: 20px;
+margin: 20px;
+flex-wrap: wrap;
+}
+.titulo{
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: rgb(46, 45, 45);
+}
+.formulario{
+  display: block;
+  background: gray;
+  width: 90%;
+  margin: auto;
+
+}
+input{
+  padding: 20px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+}
+#btn-enviar{
+  width: 30%;
+text-align: center;
+
+  background-color: rgb(73, 138, 73);
+  color: white;
+
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
